@@ -48,7 +48,7 @@ SPICE - sfw to simulate circuits, but no substitute to testing a prototype
 
 HALT highly accelerated lifetime testing - cycle relevant effects e.g. moving flex elements, temperature cycles etc
 
-## Gamepad tutorial
+## Gamepad tutorial - https://github.com/devices-lab/pro2-kicad-workshop
 
 1. Add missing buttons to pull up resistors (needed because it is a shift register not an IC)
 
@@ -64,7 +64,7 @@ CTRL-B to unshow copper fill
 
 cross referencing between schematic and layout is very useful
 
-
+## Advice 
 
 Keep escape hatches
 
