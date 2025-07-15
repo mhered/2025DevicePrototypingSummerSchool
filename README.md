@@ -1,8 +1,99 @@
-# 2025DevicePrototypingSummerSchool
+# 2025 Device Prototyping Summer School
 Notes and exercises from 2025 Device Prototyping Summer School
 
-## Intro to PCBs
-Steve Hodges
+## Intro
+
+Steve Hodges - makes gadgets. Make computers more useful with embedded hardware
+
+Dr Lorraine Underwood - make tech easier to be creative with for educators and children 
+
+Rory Clark / Joe Finney / Jason Alexander
+
+Sarah Hughes / Maura Lydon / Matt Sutton 
+
+--
+
+floors A ground, B 1st floor etc
+
+no room keys, they need to badge us in and out
+
+Breakfast In Barker House Farm
+
+--
+
+## Unlocking a long tail of hardware - Steve Hodges
+
+what is it? / why its useful? / how to unlock it?
+
+George Kindsley Zipf - linguist counted words. Long tail when we plot words by frequency, also cities by population, paper popularity, people salaries.
+
+y = 1/(x+k)**a there's always more, heavy tail distributions
+
+Easier to plot on log-log plot 
+
+Also applied to rank-freq distribution of movies. In 2005 it was controlled by supply so the curve was clipped. The gap is unsatisfied demand. People would have watched them if they were available. Netflix leveraged by technology: streaming, recommender systems etc to fill this gap. Same with music, books, physical books. Same with app stores.
+
+How do we enable these long tails? platforms. On the left mega apps. On the left research apps.
+
+Physical devices: high cost at low volumes creates gap of unsatisfied demand
+
+SenseCam - wearable records still every few seconds. Allows to review quickly. triggers true autobiographical recall. Stimulates and consolidates ability to remember.
+
+Right form factor, piece of hardware and software can change a life
+
+A different thing is to make it economically viable
+
+prototyping then production.
+
+Proto: focus on form factor and functionality
+
+Production: make copies, test, revision supply chain management
+
+In the middle many things: DFM, tooling, etc
+
+many fail in kickstarter
+
+sharp rise in investment in the middle: cumulative investment not linear
+
+specially true in small runs
+
+middle activities he calls "isotyping": suppliers & partners, pre-compliance, efficiency, certificacione, reliability, process de finition... 
+
+That's the mission of prosquared from prototype to product
+
+devices-lab in lancaster: help people make devices + making tools to overcome the challenges of isotyping
+
+
+
+## Pro2 network - Rory Clark
+
+Research Assistant for pro2 network
+
+sw + hw + functional materials > prototypes > product > adoption
+
+3 themes:
+
+1. emerging materials
+2. isotyping (refining + scaling)
+3. infrastructure for device production (packaging, logistics, returns, etc)
+
+Co Leads: Mike Fraser + Steve Hodges. Steeering group + Advisory Board
+
+3M pounds over 5 years cofounded with industry
+
+Oliver Child residency in Shenzen - there's more funding available, taking applications for residencies linked to universities, check website
+
+Check his blog
+
+CHI Conference - Computer Human interaction, a fraction related to devices
+
+Open Source Hardware Summit 2025 in Edinbourgh
+
+Industry Outreach event in winter TBA
+
+Hardy & Ellis Inventions - product to improve BOMs
+
+## Intro to PCBs - Steve Hodges
 
 copper
 solder resist gives the color
@@ -48,7 +139,9 @@ SPICE - sfw to simulate circuits, but no substitute to testing a prototype
 
 HALT highly accelerated lifetime testing - cycle relevant effects e.g. moving flex elements, temperature cycles etc
 
-## Gamepad tutorial - https://github.com/devices-lab/pro2-kicad-workshop
+## Gamepad tutorial - ??
+
+https://github.com/devices-lab/pro2-kicad-workshop
 
 1. Add missing buttons to pull up resistors (needed because it is a shift register not an IC)
 
@@ -64,7 +157,7 @@ CTRL-B to unshow copper fill
 
 cross referencing between schematic and layout is very useful
 
-## Advice 
+## Advice - John ??
 
 Keep escape hatches
 
