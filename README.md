@@ -47,3 +47,45 @@ Upload also the BOM and pick and place data
 SPICE - sfw to simulate circuits, but no substitute to testing a prototype
 
 HALT highly accelerated lifetime testing - cycle relevant effects e.g. moving flex elements, temperature cycles etc
+
+## Gamepad tutorial
+
+1. Add missing buttons to pull up resistors (needed because it is a shift register not an IC)
+
+2) Daisy chain missing neopixels
+
+Decoupling capacitor next to the component we want to protect, stores energy and feed when large demand
+
+3) challenge:  connect the joystick. Check the datasheet 
+
+4. assign missing footprints for neopixels and tactile switches
+
+CTRL-B to unshow copper fill
+
+cross referencing between schematic and layout is very useful
+
+
+
+Keep escape hatches
+
+TX and RX which one is which? add polarity swap jumper pair
+
+give yourself test pads
+
+add version numbers!
+
+keep it in sync with kicad sheet
+
+do basic protection:
+
+TVS diodes
+
+current limiting resistors
+
+jack sockets
+
+debugging LEDs
+
+save and reuse good layouts an just copy and paste text or make a dedicated sheet
+
+add free LEDs to spare IOs
