@@ -55,7 +55,7 @@ Onshape has very good documentation
 
 Check https://www.shapr3d.com/pricing
 
-
+Link to file: https://cad.onshape.com/documents/855a1103921c8fff01a9cc68/w/523188e6c79748246add5e02/e/e30ef65a0a969b823a4525ce
 
 
 
