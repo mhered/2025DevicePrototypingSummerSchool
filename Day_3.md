@@ -86,6 +86,8 @@ ability to connect a fully fledged computer: light an LED programmed with scratc
 
 ## From Prototype to Product with LOOP - Kim Sauve
 
+https://www.kimsauve.nl/
+
 perception for physical data
 
 applied design
@@ -95,8 +97,6 @@ loop displays activity tracker data
 laser cutting, complex assembly, durability, repair cost etc
 
 ## Scaling from Prototype to Product - Steve Hodges
-
-
 
 prototyping easier than ever, lots of tutorials, maker spaces, tech shops
 

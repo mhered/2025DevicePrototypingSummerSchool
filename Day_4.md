@@ -6,7 +6,7 @@
 
 ## Oliver Child - Printegrated Circuits
 
-oliverchild.com | @oliverchildd
+https://oliverchild.com/ | @oliverchildd
 
 protopasta conductive material
 
@@ -42,7 +42,9 @@ virtual modules: precompiled subdesigns
 
 gerber sockets 
 
-makedevice.devices-lab.org
+Alpha version: https://makedevice.devices-lab.org/
+
+Info: https://www.devices-lab.org/makedevice/
 
 ## Prototyping with New and Emerging Materials - Jason Alexander
 
