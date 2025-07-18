@@ -228,7 +228,7 @@ semi anecoic chamber: RF anecoic spikes and a wooden table (invisible to RF). Me
 
 CE marking is self certified! But you need to be able to back it up if needed. Need a technical file
 
-TEM cell TBTC1
+TEM cell TBTC1 for EMC Pre-Compliance Testing
 
 https://www.tekbox.com/product/open-tem-cells-emc-compliance-testing/
 
@@ -250,13 +250,19 @@ could we do something like this for hardware?
 
 sfw not there yet to do it with simulation SPICE
 
-LT SPICE and TINA SPICE good for analog electronic design
+[LT SPICE (Windows and Mac only)](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html) and TINA SPICE good for analog electronic design
 
-Frist proto is for the engineers not for the final user. Start for a bigger version
+https://forum.kicad.info/t/heads-up-for-beginners-for-spice-simulation/47538/2
+
+https://ngspice.sourceforge.io/
+
+Kicad integrates SPICE https://ngspice.sourceforge.io/ngspice-eeschema.html
+
+For something more graphical (web based): http://www.falstad.com/circuit/
+
+First proto is for the engineers not for the final user. Start with a bigger version
 
 traco power dc-dc converters
-
-
 
 ## Test and measurement tools - Steve Hodges
 
@@ -312,7 +318,9 @@ now cheap logic analyzers
 
 ### PC bite sensepeek.com 
 
-pogo pins
+convenient fixture to test with magnets and pogo pins
+
+https://sensepeek.com/webshop-1
 
 ### jtag
 
@@ -324,4 +332,44 @@ in circuit programming
 
 ## Volunteering to test MakeDevice
 
+
+
 ## Demo of immersive space
+
+
+
+## Notes from the chat
+
+Shared Photo album: https://photos.app.goo.gl/TVahLgTPw61os19h9
+
+best practices or guidelines for basic PCB layout to consider if we want to integrate simple controllers (arduino/esp) with i2c sensors?
+
+What would be the case if it needs to interface motors with high currents?
+
+\- For 2 layer designs consider having one side predominantly  up/down direction traces and the other left/right direction traces, and  use vias to go between. This helps avoid collisions in most cases.
+
+\- Keep bus line near to one another (SDA/SCL for I2c in this case) as long length mismatches may cause timing problems.
+
+\- Remember your termination resistors for your I2c connections.
+
+\- Check for address conflicts for your sensor addresses.
+
+\- Keep high frequency (switching power supply, RF) or higher voltage lines away from digital signals.
+
+\- Remember to include decoupling capacitors for your sensor power  connections,and keep them as close as possible to the sensor chips to  help mitigate noise issues.
+
+\- Remember to include a significant value capacitor on each power rail to ensure voltage stability.
+
+Keeping the high voltage stuff away is so true. I had a short once the messed everything by jumping. So many electronics fried ![🤣](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f923/72.png)
+
+Is 12V high voltage? It depends - to a 10v part, probably not! To a 1.8v part... ![💥](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f4a5/72.png)
+
+Never be afraid of including a routed out separated section for 230vAC stuff. Sometimes the best separation is an air gap ![👍](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f44d/72.png)![😁](https://fonts.gstatic.com/s/e/notoemoji/16.0/1f601/72.png)
+
+For the various folks asking about power supplies and DC/DC stuff,  consider using SOMs for this as well, For example: Traco Power offer a  bunch of 'just solder it on and it works' modules for various  conversions: https://www.tracopower.com/int/dc-dc-converters
+
+For the folks asking about debugging: At the prototyping stage,  remember to include 'escape hatches' in your prototypes like additional  test pads, solder jumpers and expose any 'spare' pins so you have stuff  to plug into or put LEDs on to see what's going on
+
+See also 'SWD' 'ICSP' or "ISP" protocols for debugging on various micros
+
+To access really tiny points on a PCB, if you don't mind doing it  the hacky way, you can use acupuncture needles (from amazon, etc.) and a clip stand to hold it still to get really precise, sprung connections  to tiiiiiny points :)
