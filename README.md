@@ -1,5 +1,5 @@
 # 2025 Device Prototyping Summer School
-Notes and exercises from 2025 Device Prototyping Summer School
+My notes and exercises from 2025 Device Prototyping Summer School
 
 * [Day 1](./Day_1.md)
 * [Day 2](./Day_2.md)
