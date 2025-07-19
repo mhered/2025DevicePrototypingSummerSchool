@@ -4,13 +4,15 @@
 
 [TOC]
 
-## Recap & Books to Read
+## Recap
 
-1.	The Hardware Hacker: Adventures in Making and Breaking Hardware — Andrew “bunnie” Huang, 2017
-2.	Prototype to Product: A Practical Guide for Getting to Market — Alan Cohen, O’Reilly Media, 2015  ￼
-3.	Product Realization: Going from One to a Million — Anna Thornton, Wiley, 2021  ￼
-4.	IoT hardware from prototype to production — Richard Marshall, Lawrence Archard & Steve Hodges, 2019  ￼
-5.	Bringing a Hardware Product to Market: Navigating the Wild Ride from Concept to Mass Production — Elaine Chen, 2015  ￼
+Books to Read
+
+1. [The Hardware Hacker: Adventures in Making and Breaking Hardware](https://www.amazon.com/Hardware-Hacker-Adventures-Making-Breaking/dp/159327758X) — Andrew “bunnie” Huang, 2017  
+2. [Prototype to Product: A Practical Guide for Getting to Market](https://www.amazon.com/Prototype-Product-Practical-Getting-Market/dp/144936229X) — Alan Cohen, O’Reilly Media, 2015  
+3. [Product Realization: Going from One to a Million](https://www.amazon.com/Product-Realization-Going-One-Million/dp/1119649536) — Anna Thornton, Wiley, 2021  
+4. [IoT hardware from prototype to production (PDF)](https://assets.ctfassets.net/nubxhjiwc091/5XtSpkpwKgFHv9usFL2L3Z/3d328e1e1f1558c2b455fbf2612bf0b3/20190903_DC_109_IoT_Production-to-Product_Report_Digital_1___1_.pdf) — Richard Marshall, Lawrence Archard & Steve Hodges, 2019  
+5. [Bringing a Hardware Product to Market: Navigating the Wild Ride from Concept to Mass Production](https://www.amazon.com/Bringing-Hardware-Product-Market-Navigating/dp/1505380839) — Elaine Chen, 2015  
 
 ## Raspberry Pi - Scale-up or oblivion - Pete Lomas
 
