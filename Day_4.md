@@ -93,4 +93,41 @@ mikrobus click boards
 dib:bit static device
 
 
+## Feedback from breakout groups
+
+* PCB DESIGN
+
+* SMT PCB ASSY
+
+* ENCLOSURES IN ONSHAPE
+
+* SCALING, ISOTYPING
+
+* DEBUGGING AND TEST TOOLS AND TECHNIQUES
+
+* WAR STORIES
+
+
+- Helped Overcome fears
+
+- War stories were comforting
+
+- Build escape hatches
+
+- It’s ok if things break
+
+- We want more of everything
+
+- People from industry
+
+- More direct application to out prototypes or demos
+
+- Buddy system
+
+- Focus on our projects. Scale by setting a Help desk, hackathons, or peer coaching
+
+- focus more on small scale tinkering
+
+ETclassification: https://mannulambrichts.github.io/ToolkitClassification/
+
 
