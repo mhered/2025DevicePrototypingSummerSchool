@@ -8,7 +8,13 @@
 
 ## Recap
 
-Homework videos to watch
+Homework videos to watch:
+
+1.	Shenzhen: The Silicon Valley of Hardware (Full Documentary) — Wired, 2016
+2.	How I Made My Own iPhone – in China — Scotty Allen, 2017
+3.	Eurocircuits TV — Eurocircuits channel
+4.	Inside China’s Future Factory — Ashlee Vance, Business Week, 2019
+5.	You must Unlearn what You have Learned — Eric Bogatin, Altium Live 2020
 
 Steve Hodges sensecam and micro:bit
 
