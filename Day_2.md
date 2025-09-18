@@ -17,9 +17,9 @@ Homework videos to watch:
 
 Steve Hodges sensecam and micro:bit
 
-Today Simon Munk (Sparkfun)
+Today Simon Munk (MonksMakes)
 
-Tomorrow: Pete Lomas involved in the Pi
+Tomorrow: Pete Lomas cofounder of Raspberry Pi
 
 ENG2 building
 
@@ -59,7 +59,7 @@ need an oven to solder. Need a particular temperature profile either in place or
 
 inspection AOI (automated optical inspection) sunzontech.com alpha x series
 
-these steps are arranged in an assy line
+these steps are arranged in an assembly line
 
 www.tsl.com
 
@@ -294,7 +294,7 @@ PCBA: high Q, expensive for prototypes, commit to bigger batch, risky if need to
 
 0603 cost .15 cents each
 
-use stad components 150KOhm or 100KOhm
+use std components 150KOhm or 100KOhm
 
 1 side 2 layers
 
@@ -302,7 +302,7 @@ routing is fun
 
 minimize TH components more expensive!
 
-consider cost of BOM at design. a Texas Instruments voltage regulator x10 the cost. buy components LCSC.com  (JLC buy from them)  
+consider cost of BOM at design. a Texas Instruments voltage regulator x10 the cost. buy components https://LCSC.com  (JLC buys from them)  
 
 ### Scaling up
 

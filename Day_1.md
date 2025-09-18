@@ -80,7 +80,7 @@ sw + hw + functional materials > prototypes > product > adoption
 2. isotyping (refining + scaling)
 3. infrastructure for device production (packaging, logistics, returns, etc)
 
-Co Leads: Mike Fraser + Steve Hodges. Steeering group + Advisory Board
+Co Leads: Mike Fraser + Steve Hodges. Steering group + Advisory Board
 
 3M pounds over 5 years cofounded with industry
 
@@ -123,7 +123,7 @@ mils is 1inch/1000 (or thou)
 trace height measured in ounces (ounces of Cu per sq foot)
 Each manufacturer has their design rules
 www.pcbway.com/capabilities.html
- jlcpcb.com/capabilities
+jlcpcb.com/capabilities
 www.eurocircuits.com/technical-guidelines/pcb-design-guidelines/
 
 ### PCB design process - bare boards
